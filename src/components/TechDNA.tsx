@@ -45,7 +45,7 @@ const categories = [
 
 export default function TechDNA() {
   return (
-    <section className="px-6 py-24">
+    <section id="skills" className="px-6 py-24">
       <div className="mx-auto max-w-5xl">
         <SectionHeading
           label="Skills"

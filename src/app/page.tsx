@@ -2,12 +2,12 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import TechDNA from "@/components/TechDNA";
 import Contact from "@/components/Contact";
-import ThemeToggle from "@/components/ThemeToggle";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main className="relative">
-      <ThemeToggle />
+      <Navbar />
       <Hero />
       <Projects />
       <TechDNA />
