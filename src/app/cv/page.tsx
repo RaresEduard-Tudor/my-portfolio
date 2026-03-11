@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CV — Rares-Eduard Tudor",
+  title: "CV, Rares-Eduard Tudor",
   description: "CV of Rares-Eduard Tudor, Full-Stack Engineer specializing in Enterprise Java & AI Infrastructure.",
 };
 
@@ -32,7 +32,7 @@ export default function CVPage() {
           Applied Computer Science student at HOGENT with a strong self-driven track record of shipping
           production-grade software. I build high-performance backends in Java (Spring Boot) and Python (FastAPI),
           maintain a self-hosted Linux server for real deployments, and develop open-source AI tooling.
-          I work well across the full stack — from PostgreSQL schema design to React dashboards —
+          I work well across the full stack, from PostgreSQL schema design to React dashboards,
           and bring a security-conscious mindset to every layer.
         </p>
       </section>
@@ -120,7 +120,7 @@ export default function CVPage() {
           <p className="cv-project-stack">Python · FastMCP · SQLite · JSON-RPC</p>
           <ul className="cv-bullets">
             <li>Published an open-source Model Context Protocol server exposing 460 OBD2 diagnostic codes to LLMs (Claude, GitHub Copilot) via 9 structured tools.</li>
-            <li>Implemented SQLite FTS5 full-text search for sub-millisecond offline DTC lookups — no internet dependency at runtime.</li>
+            <li>Implemented SQLite FTS5 full-text search for sub-millisecond offline DTC lookups, no internet dependency at runtime.</li>
           </ul>
         </div>
 
@@ -155,7 +155,7 @@ export default function CVPage() {
         <h2 className="cv-section-title">Education</h2>
         <div className="cv-entry">
           <div className="cv-entry-header">
-            <span className="cv-entry-title">Bachelor&rsquo;s degree — Applied Information Technology</span>
+            <span className="cv-entry-title">Bachelor&rsquo;s degree, Applied Information Technology</span>
             <span className="cv-entry-date">Sep 2023 – Sep 2027</span>
           </div>
           <p className="cv-entry-sub">HOGENT · East Flanders, Belgium</p>
@@ -167,7 +167,7 @@ export default function CVPage() {
         <h2 className="cv-section-title">Experience</h2>
         <div className="cv-entry">
           <div className="cv-entry-header">
-            <span className="cv-entry-title">Food Service Worker — McDonald&rsquo;s</span>
+            <span className="cv-entry-title">Food Service Worker, McDonald&rsquo;s</span>
             <span className="cv-entry-date">Nov 2023 – Present</span>
           </div>
           <p className="cv-entry-sub">Maldegem, Belgium (Student job alongside studies)</p>
