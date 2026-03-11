@@ -175,13 +175,12 @@ body {
 .cv-page {
   max-width: 52rem;
   margin: 0 auto;
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
   color: #1a1a2e;
   background: #ffffff;
   font-family: "Georgia", serif;
   font-size: 0.875rem;
-  line-height: 1.6;
-  min-height: 100vh;
+  line-height: 1.5;
 }
 
 .cv-header {
@@ -189,7 +188,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .cv-header h1 {
@@ -232,7 +231,7 @@ body {
 }
 
 .cv-section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .cv-section-title {
@@ -242,8 +241,8 @@ body {
   text-transform: uppercase;
   color: #0f0f1a;
   border-bottom: 1px solid #e2e4ea;
-  padding-bottom: 0.3rem;
-  margin: 0 0 0.75rem;
+  padding-bottom: 0.2rem;
+  margin: 0 0 0.5rem;
 }
 
 .cv-body {
@@ -274,7 +273,7 @@ body {
 }
 
 .cv-project {
-  margin-bottom: 1.1rem;
+  margin-bottom: 0.75rem;
 }
 
 .cv-project-header {
@@ -354,10 +353,15 @@ body {
 @media print {
   body { background: white !important; }
   .cv-page {
-    padding: 1.5rem 1.25rem;
+    padding: 1rem 1.25rem;
     max-width: 100%;
+    font-size: 0.82rem;
+    line-height: 1.45;
   }
-  .cv-project, .cv-entry, .cv-section {
+  .cv-header h1 { font-size: 1.5rem; }
+  .cv-section { margin-bottom: 0.75rem; }
+  .cv-project { margin-bottom: 0.6rem; }
+  .cv-project, .cv-entry {
     break-inside: avoid;
   }
   a { color: inherit !important; text-decoration: none !important; }
