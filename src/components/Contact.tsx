@@ -7,7 +7,7 @@ import SectionHeading from "./SectionHeading";
 const GITHUB_URL = "https://github.com/RaresEduard-Tudor";
 const LINKEDIN_URL =
   "https://www.linkedin.com/in/rares-eduard-tudor-6885952aa/";
-const RESUME_URL = "/resume.pdf"; // Place resume.pdf in /public
+const RESUME_URL = "/cv";
 
 export default function Contact() {
   return (
