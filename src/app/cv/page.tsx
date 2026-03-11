@@ -29,11 +29,12 @@ export default function CVPage() {
       <section className="cv-section">
         <h2 className="cv-section-title">Profile</h2>
         <p className="cv-body">
-          Applied Computer Science student at HOGENT with a strong self-driven track record of shipping
-          production-grade software. I build high-performance backends in Java (Spring Boot) and Python (FastAPI),
-          maintain a self-hosted Linux server for real deployments, and develop open-source AI tooling.
-          I work well across the full stack, from PostgreSQL schema design to React dashboards,
-          and bring a security-conscious mindset to every layer.
+          Second-year Applied Computer Science student at HOGENT, already shipping production-grade applications
+          and maintaining a self-hosted Linux server as a personal deployment environment.
+          I specialize in enterprise backend development (Spring Boot 3, PostgreSQL) and have published
+          open-source AI tooling in the Model Context Protocol ecosystem — an area most developers
+          are only beginning to explore. Currently seeking a software engineering internship where I can
+          contribute to real backend systems. Open to on-site, hybrid, or remote roles across Europe.
         </p>
       </section>
 
