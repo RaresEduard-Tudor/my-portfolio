@@ -20,19 +20,23 @@ export default function Hero() {
       >
         <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--border-accent)] bg-[var(--bg-card)] px-4 py-1.5 text-sm text-[var(--text-secondary)]">
           <span className="inline-block h-2 w-2 rounded-full bg-[var(--accent-emerald)] animate-pulse" />
-          Available for opportunities
+          Open to internships &amp; junior roles · Remote or Europe
         </div>
+
+        <p className="text-base font-medium text-[var(--text-muted)] tracking-wide uppercase mb-3">
+          Hi, I&apos;m Rares Tudor
+        </p>
 
         <h1 className="mx-auto max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
           Full-Stack Engineer{" "}
           <span className="bg-gradient-to-r from-[var(--accent-blue)] to-[var(--accent-purple)] bg-clip-text text-transparent">
-            Specialized in Enterprise Java & AI Infrastructure
+            Building Production Systems as a Student
           </span>
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-[var(--text-secondary)] sm:text-xl">
-          Building high-performance backends and local AI tools. Maintaining a
-          headless Linux environment for deployment and security research.
+          I specialize in enterprise Java backends, Python APIs, and open-source AI tooling.
+          I run a self-hosted Linux server, ship Dockerized apps, and build things that actually work in production.
         </p>
       </motion.div>
 

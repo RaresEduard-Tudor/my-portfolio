@@ -32,7 +32,7 @@ export default function CVPage() {
           Second-year Applied Computer Science student at HOGENT, already shipping production-grade applications
           and maintaining a self-hosted Linux server as a personal deployment environment.
           I specialize in enterprise backend development (Spring Boot 3, PostgreSQL) and have published
-          open-source AI tooling in the Model Context Protocol ecosystem — an area most developers
+          open-source AI tooling in the Model Context Protocol ecosystem, an area most developers
           are only beginning to explore. Currently seeking a software engineering internship where I can
           contribute to real backend systems. Open to on-site, hybrid, or remote roles across Europe.
         </p>
