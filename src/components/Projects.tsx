@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Car, Shield, Cpu, TrendingUp, Film, Gauge } from "lucide-react";
+import { Car, Shield, Cpu, TrendingUp, Gauge } from "lucide-react";
 import ProjectCard, { type Project } from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
 import SectionHeading from "./SectionHeading";
@@ -17,6 +17,7 @@ const projects: Project[] = [
     icon: Car,
     accentColor: "var(--accent-blue)",
     repoUrl: "https://github.com/RaresEduard-Tudor/CarLogix",
+    liveUrl: "https://carlogix-app.vercel.app",
     span: "sm:col-span-2",
   },
   {
@@ -29,6 +30,7 @@ const projects: Project[] = [
     icon: Shield,
     accentColor: "var(--accent-rose)",
     repoUrl: "https://github.com/RaresEduard-Tudor/Threat-IntelD",
+    liveUrl: "https://threat-inteld.vercel.app",
   },
   {
     title: "OBD2-MCP-Server",
@@ -51,17 +53,6 @@ const projects: Project[] = [
     icon: TrendingUp,
     accentColor: "var(--accent-amber)",
     repoUrl: "https://github.com/RaresEduard-Tudor/Market-Scraper",
-  },
-  {
-    title: "Media-Conversion",
-    problem:
-      "Converting media files between formats requires installing heavy desktop apps.",
-    solution:
-      "A lightweight Dockerized media conversion service for fast, reproducible format transformations.",
-    tech: ["Docker", "Python"],
-    icon: Film,
-    accentColor: "var(--accent-purple)",
-    repoUrl: "https://github.com/RaresEduard-Tudor/Media-Conversion",
   },
   {
     title: "F1-Telemetry",

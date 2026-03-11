@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Server, GitBranch } from "lucide-react";
+import { Server, GitBranch, Shield } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
 const categories = [
@@ -10,19 +10,35 @@ const categories = [
     icon: Server,
     accentColor: "var(--accent-amber)",
     items: [
-      "Self-hosted Headless Linux Server (Ubuntu)",
-      "Docker Compose",
-      "Cron-automated data scrapers",
+      "Linux Administration — Self-hosted Headless Ubuntu Server",
+      "Virtualization — Docker & Docker Compose orchestration",
+      "Database Management — PostgreSQL (Relational) & SQLite (Embedded)",
+      "Automation — Cron-scheduled Python scrapers & system maintenance",
+      "Networking — Static IP, SSH tunneling, and firewall management",
     ],
   },
   {
-    title: "DevOps",
+    title: "DevOps & Tooling",
     icon: GitBranch,
     accentColor: "var(--accent-purple)",
     items: [
-      "CI/CD via GitHub Actions",
-      "Vercel deployments",
-      "Nginx reverse proxying",
+      "CI/CD Pipeline — Automated testing & deployment via GitHub Actions",
+      "Web Servers — Nginx Reverse Proxy with SSL/TLS (Certbot)",
+      "Cloud Hosting — Vercel (Frontend) & Render/Self-hosted (Backend)",
+      "Version Control — Advanced Git (branching, rebasing, conflict resolution)",
+      "API Testing — Postman & Insomnia for RESTful endpoint validation",
+    ],
+  },
+  {
+    title: "Architecture & AI",
+    icon: Shield,
+    accentColor: "var(--accent-emerald)",
+    items: [
+      "Agentic AI — Model Context Protocol (MCP) servers for LLM tool-calling",
+      "State Management — NoSQL (Firebase) to Relational (PostgreSQL) migrations",
+      "Security First — JWT authentication, env variable protection, SSL enforcement",
+      "Backend Architecture — Spring Boot microservices, FastAPI orchestration engines",
+      "Micro-utilities — Python CLI tools to automate data workflows",
     ],
   },
 ];
@@ -34,10 +50,10 @@ export default function TechDNA() {
         <SectionHeading
           label="Skills"
           title="Technical DNA"
-          subtitle="The infrastructure and tooling that powers every project."
+          subtitle="The infrastructure, tooling, and architecture that powers every project."
         />
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((cat, i) => (
             <motion.div
               key={cat.title}

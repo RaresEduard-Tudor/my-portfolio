@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ExternalLink, Github, Loader2 } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import type { Project } from "./ProjectCard";
+import TechBadge from "./TechBadge";
 
 export default function ProjectModal({
   project,
@@ -88,7 +89,7 @@ export default function ProjectModal({
             exit={{ opacity: 0, y: 40, scale: 0.97 }}
             transition={{ duration: 0.25, ease: "easeOut" }}
             onClick={(e) => e.stopPropagation()}
-            className="relative w-full max-w-3xl rounded-2xl border border-[var(--border-subtle)] bg-[var(--bg-card)] shadow-2xl"
+            className="relative w-full max-w-5xl rounded-2xl border border-[var(--border-subtle)] bg-[var(--bg-card)] shadow-2xl"
           >
             {/* Header */}
             <div className="flex items-center justify-between border-b border-[var(--border-subtle)] px-6 py-4">
@@ -139,17 +140,12 @@ export default function ProjectModal({
             {/* Tech tags */}
             <div className="flex flex-wrap gap-2 border-b border-[var(--border-subtle)] px-6 py-3">
               {project.tech.map((t) => (
-                <span
-                  key={t}
-                  className="rounded-md border border-[var(--border-subtle)] bg-[var(--bg-secondary)] px-2.5 py-1 text-xs text-[var(--text-muted)]"
-                >
-                  {t}
-                </span>
+                <TechBadge key={t} name={t} />
               ))}
             </div>
 
             {/* README content */}
-            <div className="max-h-[60vh] overflow-y-auto px-6 py-6">
+            <div className="max-h-[70vh] overflow-y-auto px-8 py-6">
               {loading && (
                 <div className="flex items-center justify-center py-20">
                   <Loader2 className="h-6 w-6 animate-spin text-[var(--text-muted)]" />
