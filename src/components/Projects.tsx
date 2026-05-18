@@ -17,7 +17,7 @@ const projects: Project[] = [
     icon: Car,
     accentColor: "var(--accent-blue)",
     repoUrl: "https://github.com/RaresEduard-Tudor/CarLogix",
-    liveUrl: "https://carlogix-app.vercel.app",
+    liveUrl: "https://carlogix.rarestudor.com",
     span: "sm:col-span-2",
   },
   {
@@ -30,7 +30,7 @@ const projects: Project[] = [
     icon: Shield,
     accentColor: "var(--accent-rose)",
     repoUrl: "https://github.com/RaresEduard-Tudor/Threat-IntelD",
-    liveUrl: "https://threat-inteld.vercel.app",
+    liveUrl: "https://threat.rarestudor.com",
   },
   {
     title: "OBD2-MCP-Server",
